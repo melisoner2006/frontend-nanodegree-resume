@@ -2,6 +2,7 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 /*
+
 var languages = ["Java", "Perl", "Php", "SQL", "JavaScript", "Python", "C++", "HTML", "CSS" ];
 var operatingsystems = ["Unix distributions (Linux, Solaris, AIX)", "Windows"];
 var servers = ["Tomcat", "Oracle"];
