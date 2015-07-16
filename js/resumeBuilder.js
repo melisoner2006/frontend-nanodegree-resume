@@ -52,13 +52,18 @@ bio.display = function (){
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
 	var formattedNameRole = formattedName.concat(" ",formattedRole);
-	$("#header").append(formattedNameRole);
+	$("#header").prepend(formattedNameRole);
 	
 	
 	$("#header").append(formattedMobile);	
 	$("#header").append(formattedEmail);
 	$("#header").append(formattedGithub);
 	$("#header").append(formattedLocation);
+	
+	$("#lets-connect").append(formattedMobile);	
+	$("#lets-connect").append(formattedEmail);
+	$("#lets-connect").append(formattedGithub);
+	$("#lets-connect").append(formattedLocation);
 	
 	$("#header").append(HTMLskillsStart);
 	for(skill in bio.skills){
