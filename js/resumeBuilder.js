@@ -301,7 +301,9 @@ projects.display = function(){
 
 projects.display();
 
+
 $("#main").append(internationalizeButton);
+$("#map-div").append(googleMap);
 
 
 
