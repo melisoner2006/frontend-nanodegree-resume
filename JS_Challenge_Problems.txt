@@ -37,3 +37,33 @@ console.log(getRelationship(3));
 console.log(getRelationship("hi"));
 console.log(getRelationship(NaN));
 console.log(getRelationship(NaN, undefined));
+
+2. Astronaut Quiz 
+---------------------------------------------
+var moonWalkers = [
+  "Neil Armstrong",
+  "Buzz Aldrin",
+  "Pete Conrad",
+  "Alan Bean",
+  "Alan Shepard",
+  "Edgar Mitchell",
+  "David Scott",
+  "James Irwin",
+  "John Young",
+  "Charles Duke",
+  "Eugene Cernan",
+  "Harrison Schmitt"
+];
+
+function alphabetizer(names) {
+    // Your code goes here!
+    for (var name in names){
+        var name_arr = names[name].split(" ");
+        names[name] = name_arr[1]+", "+name_arr[0];
+       // console.log("*", names[name]);
+    }
+    return names.sort();
+}
+
+// Try logging your results to test your code!
+console.log(alphabetizer(moonWalkers));
