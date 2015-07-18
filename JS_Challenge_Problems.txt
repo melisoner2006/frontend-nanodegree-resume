@@ -1,0 +1,39 @@
+1. Relationships Quiz
+------------------------------------------------------------------------
+function getRelationship(x, y) {
+    // Your code goes here!
+   var x_isNumber, y_isNumber, result;
+    
+    x_isNumber = (typeof x === "number" && !isNaN(x));
+    //console.log (x, x_isNumber);
+    y_isNumber = (typeof y === "number" && !isNaN(y));
+    //console.log(y, y_isNumber);
+    
+    
+    if (!x_isNumber && !y_isNumber){
+         result =  "Can't compare relationships because " +x+ " and "+y+ " are not numbers";
+    }else if (!x_isNumber){
+        result =  "Can't compare relationships because " +x+ " is not a number";
+    }else if (!y_isNumber){
+        result =  "Can't compare relationships because " +y+ " is not a number";
+    }else{
+        if (x === y){
+            result = "=";
+        }else if (x<y){
+            result = "<";
+        }else{
+            result = ">";
+        }
+    }
+      return result;
+}
+
+// Try logging these functions to test your code!
+console.log(getRelationship(1,4));
+console.log(getRelationship(1,1));
+console.log(getRelationship("that",2));
+console.log(getRelationship("this"," something else"));
+console.log(getRelationship(3));
+console.log(getRelationship("hi"));
+console.log(getRelationship(NaN));
+console.log(getRelationship(NaN, undefined));
