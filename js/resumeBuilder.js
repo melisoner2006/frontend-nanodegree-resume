@@ -55,24 +55,26 @@ bio.display = function (){
 	$("#header").prepend(formattedNameRole);
 	
 	
-	$("#header").append(formattedMobile);	
-	$("#header").append(formattedEmail);
-	$("#header").append(formattedGithub);
-	$("#header").append(formattedLocation);
+	$("#topContacts").append(formattedMobile);	
+	$("#topContacts").append(formattedEmail);
+	$("#topContacts").append(formattedGithub);
+	$("#topContacts").append(formattedLocation);
 	
-	$("#lets-connect").append(formattedMobile);	
-	$("#lets-connect").append(formattedEmail);
-	$("#lets-connect").append(formattedGithub);
-	$("#lets-connect").append(formattedLocation);
+	$("#footerContacts").append(formattedMobile);	
+	$("#footerContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedGithub);
+	$("#footerContacts").append(formattedLocation);
+
+	$("#header").append(formattedBioPic);
+	$("#header").append(formattedHello);
 	
 	$("#header").append(HTMLskillsStart);
 	for(skill in bio.skills){
 		var formattedSkill = HTMLskills.replace("%data%",bio.skills[skill]);
-		$("#header").append(formattedSkill);
+		$("#skills").append(formattedSkill);
 	}
 	
-	$("#header").append(formattedBioPic);
-	$("#header").append(formattedHello);
+
 };
 
 bio.display();
