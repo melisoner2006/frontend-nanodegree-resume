@@ -129,7 +129,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color:#484848;
 }
 
 .flex-box {
@@ -198,7 +198,7 @@ span {
   display: block;
   height: 100%;
   margin: 0 5%;
-
+   padding:10px 5%;
 }
 
 #map-div {
