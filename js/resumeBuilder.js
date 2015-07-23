@@ -202,6 +202,12 @@ var education = {
 			"url": "https://www.udacity.com/course/javascript-basics--ud804"
 		},
 		{
+			"title": "Intro to jQuery",
+			"school": "Udacity",
+			"dates": "July 2015",
+			"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		},		
+		{
 			"title": "Machine Learning",
 			"school": "Coursera",
 			"dates": "August 2013",
@@ -245,6 +251,7 @@ education.display = function(){
 	};
 };
 //don't forget to call the function
+//$(div.education).toggleClass("highlight");
 education.display();
 
 
@@ -305,5 +312,20 @@ projects.display();
 $("#main").append(internationalizeButton);
 $("#map-div").append(googleMap);
 
+
+
+$("div#education").click(function(){
+	$(this).toggleClass("highlight");
+	$(this).siblings().removeClass("highlight");
+});
+
+$("div#workExperience").click(function(){
+	$(this).toggleClass("highlight");
+	$(this).siblings().removeClass("highlight");
+});
+$("div#projects").click(function(){
+	$(this).toggleClass("highlight");
+	$(this).siblings().removeClass("highlight");	
+});
 
 

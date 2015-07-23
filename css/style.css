@@ -194,6 +194,10 @@ span {
   }
 }
 
+.highlight {
+	background-color: #f5ae23;
+}
+
 #map {
   display: block;
   height: 100%;
