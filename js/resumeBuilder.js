@@ -184,17 +184,23 @@ var education = {
 	],
 	"onlineCourses": [
 		{
-			"title": "Intro to HTML and CSS",
+			"title": "How to Use Git and GitHub",
 			"school": "Udacity",
-			"dates": "May 2015",
-			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+			"dates": "July 2015",
+			"url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
 		},
 		{
-			"title": "Responsive Web Design Fundamentals",
+			"title": "Android Development for Beginners",
 			"school": "Udacity",
-			"dates": "June 2015",
-			"url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
-		},
+			"dates": "July 2015",
+			"url": "https://www.udacity.com/course/android-development-for-beginners--ud837"
+		},	
+		{
+			"title": "Intro to jQuery",
+			"school": "Udacity",
+			"dates": "July 2015",
+			"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		},	
 		{
 			"title": "JavaScript Basics",
 			"school": "Udacity",
@@ -202,11 +208,17 @@ var education = {
 			"url": "https://www.udacity.com/course/javascript-basics--ud804"
 		},
 		{
-			"title": "Intro to jQuery",
+			"title": "Responsive Web Design Fundamentals",
 			"school": "Udacity",
-			"dates": "July 2015",
-			"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+			"dates": "June 2015",
+			"url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
 		},		
+		{
+			"title": "Intro to HTML and CSS",
+			"school": "Udacity",
+			"dates": "May 2015",
+			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		},	
 		{
 			"title": "Machine Learning",
 			"school": "Coursera",
